@@ -1,0 +1,58 @@
+import { Accessory } from '../types';
+
+export const accessories: Accessory[] = [
+  {
+    id: 'dashcam-4k',
+    name: 'Camera hành trình 4K kép',
+    category: 'Camera hành trình',
+    price: 4290000,
+    description: 'Ghi hình trước và sau sắc nét, hỗ trợ quan sát ban đêm và lưu lại hành trình an toàn.',
+    image: 'https://www.cool-mania.net/data/product/77/41eb4698d3782c29e66bdc050259c2.jpg',
+    features: ['Ghi hình 4K phía trước', 'Camera sau Full HD', 'Cảnh báo va chạm G-sensor'],
+  },
+  {
+    id: 'android-screen',
+    name: 'Màn hình Android ô tô  T10',
+    category: 'Màn hình ô tô',
+    price: 8950000,
+    description: 'Màn hình cảm ứng độ phân giải cao, tích hợp bản đồ, giải trí và kết nối điện thoại.',
+    image: 'https://vietnamcarpro.vn/wp-content/uploads/2024/09/man-hinh-30.jpg',
+    features: ['Màn hình cảm ứng 10 inch', 'Hỗ trợ Apple CarPlay và Android Auto', 'GPS và Wi-Fi tích hợp'],
+  },
+  {
+    id: 'wireless-charger',
+    name: 'Đế sạc không dây MagSafe',
+    category: 'Sạc & kết nối',
+    price: 1290000,
+    description: 'Đế giữ điện thoại chắc chắn, sạc nhanh không dây và dễ dàng điều chỉnh góc nhìn.',
+    image: 'https://i.ebayimg.com/images/g/9K8AAeSwphBo-1aU/s-l1200.jpg',
+    features: ['Sạc không dây đến 15W', 'Nam châm giữ điện thoại', 'Khớp xoay linh hoạt'],
+  },
+  {
+    id: 'tire-inflator',
+    name: 'Bơm lốp điện tử thông minh',
+    category: 'Thiết bị tiện ích',
+    price: 1590000,
+    description: 'Bơm lốp nhỏ gọn có màn hình hiển thị áp suất và tự ngắt khi đạt mức cài đặt.',
+    image: 'https://wekampa.com/cdn/shop/files/51OTf7FsT6L._AC_SL1500.webp?v=1692537260',
+    features: ['Màn hình LED dễ đọc', 'Tự ngắt theo áp suất đặt trước', 'Đèn LED dùng khi khẩn cấp'],
+  },
+  {
+    id: 'jump-starter',
+    name: 'Bộ kích bình kiêm sạc dự phòng',
+    category: 'Thiết bị tiện ích',
+    price: 2490000,
+    description: 'Bộ kích bình nhỏ gọn giúp khởi động xe khi ắc quy yếu và sạc thiết bị di động.',
+    image: 'https://mucar.vn/wp-content/uploads/2020/05/bo-kich-binh-ac-quy-xe-hoi-kiem-sac-du-phong-high-power-9.jpg',
+    features: ['Dùng cho xe 12V', 'Bảo vệ chống đảo cực', 'Cổng USB sạc điện thoại'],
+  },
+  {
+    id: 'car-vacuum',
+    name: 'Máy hút bụi ô tô không dây',
+    category: 'Chăm sóc xe',
+    price: 1890000,
+    description: 'Thiết kế gọn nhẹ, làm sạch bụi bẩn ở ghế và các khe nhỏ trong khoang xe.',
+    image: 'https://image.rakuten.co.jp/hype/cabinet/sgazo42/7987730_2.jpg',
+    features: ['Thiết kế không dây', 'Bộ đầu hút khe đa năng', 'Hộp bụi tháo rửa được'],
+  },
+];
